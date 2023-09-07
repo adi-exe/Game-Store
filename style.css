@@ -7,12 +7,11 @@ body, h1, h2, h3, p, ul {
 
 /* Basic styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Gotham';
+    background-color: #040D12;
 }
 
 header {
-    background-color: #333;
     color: #fff;
     padding: 20px;
 }
@@ -53,12 +52,19 @@ h2 {
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 50%;
+    width: 50%;
 }
 
 .game img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
+    
+}
+
+.game img:hover{
+    box-shadow: 5px 5px 2px 3px #000000;
 }
 
 .game h3 {
@@ -74,7 +80,6 @@ h2 {
 
 .game a {
     display: inline-block;
-    background-color: #333;
     color: #fff;
     padding: 8px 16px;
     text-decoration: none;
@@ -82,13 +87,11 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-.game a:hover {
-    background-color: #555;
-}
 
 /* Colors */
 header {
-    background-color: #1e88e5;
+    background-color: #183D3D;
+    text-shadow: 3px 3px 6px #000000;
 }
 
 nav ul li a {
@@ -100,16 +103,26 @@ section {
 }
 
 .game {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #000000;
+    border: 2px solid #ccc;
 }
 
-.game a {
-    background-color: #1e88e5;
-}
 
-.game a:hover {
-    background-color: #1565c0;
+
+.hr{
+    border-style: solid;
+    border-radius: 5px;
+    border-width:1.5px ;
+    border-color: #ffffff;
+    display: inline-block;
+    text-shadow: 0px 0px 6px #000000;
+}
+.hr:hover{
+    background-color:#5C8374 ;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 2px 2px #000000;
+    text-shadow: 3px 3px 6px #000000;
 }
 
 footer {
@@ -117,6 +130,14 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+.game:hover {
+    background-color: #183D3D;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 2px 3px #93B1A6;
+    text-shadow: 3px 3px 6px #000000;
+    
 }
 
 /* Responsive */
